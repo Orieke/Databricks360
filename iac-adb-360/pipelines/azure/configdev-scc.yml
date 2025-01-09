@@ -1,8 +1,8 @@
 variables:
-  baseName: adbsccstd0419
+  baseName: knyadb3600109
   env: dev
-  resourcegroup: rg-wus2-$(baseName)-dev
-  vnetresourcegroup: rg-wus2-$(baseName)-net-dev
-  transitresourcegroup: rg-wus2-$(baseName)-trans-dev
+  resourcegroup: rg-wuswedencentrals2-$(baseName)-dev
+  vnetresourcegroup: rg-swedencentral-$(baseName)-net-dev
+  transitresourcegroup: rg-swedencentral-$(baseName)-trans-dev
   vnetname: $(baseName)$(env)-vnet
-  location: westus2
+  location: swedencentral
