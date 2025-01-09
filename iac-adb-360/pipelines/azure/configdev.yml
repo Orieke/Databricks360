@@ -1,6 +1,6 @@
 variables:
-  baseName: adb3600614
+  baseName: knyadb3600109
   env: dev
-  resourcegroup: rg-wus3-$(baseName)-$(env)
-  location: westus3
+  resourcegroup: rg-swedencentral-$(baseName)-$(env)
+  location: swedencentral
 
