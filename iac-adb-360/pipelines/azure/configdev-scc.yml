@@ -1,7 +1,7 @@
 variables:
   baseName: knnyadb3600129
   env: dev
-  resourcegroup: rg-wuswedencentrals2-$(baseName)-dev
+  resourcegroup: rg-swedencentral-$(baseName)-dev
   vnetresourcegroup: rg-swedencentral-$(baseName)-net-dev
   transitresourcegroup: rg-swedencentral-$(baseName)-trans-dev
   vnetname: $(baseName)$(env)-vnet
