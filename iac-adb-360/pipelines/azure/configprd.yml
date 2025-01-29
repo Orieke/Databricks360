@@ -1,7 +1,7 @@
 variables:
-  baseName: knyadb3600109
+  baseName: knnyadb3600129
   env: prd
   resourcegroup: rg-swedencentral-$(baseName)-$(env)  
-  location: westswedencentralus3
+  location: swedencentral
 
   

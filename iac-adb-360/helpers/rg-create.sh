@@ -1,10 +1,10 @@
 #!/bin/bash
 
-solutionname='knyadb360'
+solutionname='knnyadb360'
 location='swedencentral'
-subscriptionid='bf16bbd8-4fc7-4573-9ddc-8d03377a88c5'
-serviceprincipalname='kny-devops-sc'
-adbinteractprincipalname='kny-adb360-sp'
+subscriptionid='ecd4f007-c75c-4389-b224-343ec3dc2bfb'
+serviceprincipalname='devops-sc'
+adbinteractprincipalname='adb360-sp'
 locationshortname='swedencentral'
 
 month=$(date -d "$D" '+%m')

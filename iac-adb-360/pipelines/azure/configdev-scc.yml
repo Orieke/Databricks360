@@ -1,5 +1,5 @@
 variables:
-  baseName: knyadb3600109
+  baseName: knnyadb3600129
   env: dev
   resourcegroup: rg-wuswedencentrals2-$(baseName)-dev
   vnetresourcegroup: rg-swedencentral-$(baseName)-net-dev
