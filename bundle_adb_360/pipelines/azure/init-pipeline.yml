@@ -17,13 +17,13 @@ stages:
   - job: j_validate_deploy_bundles
     displayName: 'validate_deploy_bundles'
     pool:
-      vmImage: 'ubuntu-latest'
+      name: pool
     steps:
-    - task: CmdLine@2
-      inputs:
-        script: |
-          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
-      displayName: 'Install Databricks CLI v 2'
+    #- task: CmdLine@2
+    #  inputs:
+    #    script: |
+    #      curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+    #  displayName: 'Install Databricks CLI v 2'
 
     - task: AzureCLI@2
       displayName: 'validate bundle'
