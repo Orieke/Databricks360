@@ -25,11 +25,11 @@ stages:
     pool:
       name: local
     steps:
-    - task: CmdLine@2
-      inputs:
-        script: |
-          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
-      displayName: 'Install Databricks CLI v 2'
+    #- task: CmdLine@2
+    #  inputs:
+    #    script: |
+    #      curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+    #  displayName: 'Install Databricks CLI v 2'
 
     - task: AzureCLI@2
       displayName: 'Call script assign workspace to metastore'
@@ -48,11 +48,11 @@ stages:
     pool:
       name: local
     steps:
-    - task: CmdLine@2
-      inputs:
-        script: |
-          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
-      displayName: 'Install Databricks CLI v 2'
+    #- task: CmdLine@2
+    #  inputs:
+    #    script: |
+    #      curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+    #  displayName: 'Install Databricks CLI v 2'
 
     - task: AzureCLI@2
       displayName: 'Call script to assign workspace to repo'
