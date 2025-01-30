@@ -23,7 +23,7 @@ stages:
   - job: j_assignmetastore
     displayName: 'job assign workspace to metastore'
     pool:
-      vmImage: 'ubuntu-latest'
+      name: local
     steps:
     - task: CmdLine@2
       inputs:
