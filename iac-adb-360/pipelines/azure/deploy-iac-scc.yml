@@ -21,7 +21,7 @@ variables:
     - group: vgadb360sccprd
 
 pool:
-  name: local
+  name: shpool
 
 
 stages:

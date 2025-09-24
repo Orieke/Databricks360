@@ -46,7 +46,7 @@ stages:
   - job: j_assignrepo
     displayName: 'Job assign repository to spn'
     pool:
-      name: 'local'
+      name: 'shpool'
     steps:
     - task: CmdLine@2
       inputs:

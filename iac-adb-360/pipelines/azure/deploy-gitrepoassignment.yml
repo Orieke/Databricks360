@@ -17,7 +17,7 @@ variables:
 
 
 pool:
-  name: local
+  name: shpool
 
 stages:
 
