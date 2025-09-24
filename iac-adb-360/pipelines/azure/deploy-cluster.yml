@@ -10,6 +10,7 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+  name: local
 
 variables:
 - group: devadb0925

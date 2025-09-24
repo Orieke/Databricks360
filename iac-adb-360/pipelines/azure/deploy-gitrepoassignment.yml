@@ -18,6 +18,7 @@ variables:
 
 pool:
   vmImage: 'ubuntu-latest'
+  name: local
 
 stages:
 
