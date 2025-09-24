@@ -21,7 +21,6 @@ variables:
     - group: vgadb360sccprd
 
 pool:
-  vmImage: ubuntu-latest
   name: local
 
 

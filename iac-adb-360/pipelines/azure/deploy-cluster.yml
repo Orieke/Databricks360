@@ -9,7 +9,6 @@ trigger:
 
 
 pool:
-  vmImage: 'ubuntu-latest'
   name: local
 
 variables:
