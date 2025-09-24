@@ -3,7 +3,7 @@ name: iac-test-pipeline
 trigger:
   branches:
     include:
-      - dev
+      - dev2409
 
 pr:
   branches:
@@ -11,7 +11,7 @@ pr:
       - '*'
 
 variables:
-  - ${{ if or(eq(variables['Build.SourceBranchName'], 'dev'), eq(variables['System.PullRequest.TargetBranchName'], 'dev')) }}:
+  - ${{ if or(eq(variables['Build.SourceBranchName'], 'dev2409'), eq(variables['System.PullRequest.TargetBranchName'], 'dev2409')) }}:
     - group: vgdevadb360 
   - ${{ else }}: 
     - group: vgprdadb360

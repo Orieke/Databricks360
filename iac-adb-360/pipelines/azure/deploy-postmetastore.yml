@@ -3,14 +3,14 @@ name: PostMetastoreDeploy
 trigger:
   branches:
     include:
-      - devy
+      - dev2409
 
   paths:
     include:
       - '*'
 
 variables:
-  - ${{ if or(eq(variables['Build.SourceBranchName'], 'dev'), eq(variables['System.PullRequest.TargetBranchName'], 'dev')) }}:
+  - ${{ if or(eq(variables['Build.SourceBranchName'], 'dev2409'), eq(variables['System.PullRequest.TargetBranchName'], 'dev2409')) }}:
     - group: vgdevadb360 
   - ${{ else }}: 
     - group: vgprdadb360

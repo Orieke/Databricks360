@@ -11,11 +11,11 @@ trigger:
 pr:
   branches:
     include:
-      - dev
+      - dev2409
 
 
 variables:
-  - ${{ if or(eq(variables['Build.SourceBranchName'], 'dev'), eq(variables['System.PullRequest.TargetBranchName'], 'dev')) }}:
+  - ${{ if or(eq(variables['Build.SourceBranchName'], 'dev2409'), eq(variables['System.PullRequest.TargetBranchName'], 'dev2409')) }}:
     - group: vgadb360sccdev 
   - ${{ else }}: 
     - group: vgadb360sccprd

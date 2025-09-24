@@ -3,7 +3,7 @@ name: Deploy-IAC
 trigger:
   branches:
     include:
-      - dev
+      - dev2409
   paths:
     exclude:
       - '*'
@@ -11,10 +11,10 @@ trigger:
 pr:
   branches:
     include:
-      - dev
+      - dev2409
 
 variables:
-  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/dev') }}: 
+  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/dev2409') }}: 
     - template: ./configdev.yml
   - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}: 
     - template: ./configprd.yml
