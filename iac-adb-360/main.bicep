@@ -18,6 +18,7 @@ module adb 'bmain-modules/adbws.bicep'={
     adbmngresourceid: adbwsmngresid
     locationshortname: locationshortstring
     lawid: law.outputs.lawid
+    sku: 'premium'
   }
 }
 
