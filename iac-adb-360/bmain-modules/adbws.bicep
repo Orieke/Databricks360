@@ -4,12 +4,16 @@ param location string = resourceGroup().location
 param adbmngresourceid string
 param locationshortname string
 param lawid string
+param sku string
 
 //var managedRGId = '${subscription().id}/resourceGroups/${resourceGroup().name}-mng'
 
 resource adbws 'Microsoft.Databricks/workspaces@2023-02-01' = {
   name: 'adbws-${locationshortname}${baseName}${env}'
   location: location
+  sku: {
+    name: sku
+  }
   properties: {
     managedResourceGroupId: adbmngresourceid
   }
