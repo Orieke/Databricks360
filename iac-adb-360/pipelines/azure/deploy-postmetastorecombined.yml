@@ -3,7 +3,7 @@ name: PostMetastoreCombinedDeploy
 trigger:
   branches:
     include:
-      - dev2409
+      - dev2409y
 
   paths:
     include:
