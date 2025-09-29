@@ -2,7 +2,7 @@
 
 solutionname='adb360'
 location='westus2'
-subscriptionid='<subscriptionid>'
+subscriptionid='cbd50756-0b36-40f3-90ca-530999a0f9da'
 serviceprincipalname='devops-sc'
 adbinteractprincipalname='adb360-sp'
 locationshortname='wus2'
