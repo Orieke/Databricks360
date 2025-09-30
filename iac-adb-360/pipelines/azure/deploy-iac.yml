@@ -16,7 +16,7 @@ pr:
 variables:
   - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/dev2409') }}: 
     - template: ./configdev.yml
-  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}: 
+  - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/prd') }}: 
     - template: ./configprd.yml
 
 
